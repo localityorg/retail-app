@@ -1,0 +1,56 @@
+{
+	"expo": {
+		"name": "Locality Business",
+		"slug": "localitybn",
+		"version": "1.0.0",
+		"orientation": "portrait",
+		"icon": "./assets/images/icon.png",
+		"scheme": "app",
+		"userInterfaceStyle": "light",
+		"splash": {
+			"image": "./assets/images/adaptive-icon.png",
+			"resizeMode": "contain",
+			"backgroundColor": "#ffffff"
+		},
+		"notification": {
+			"icon": "./assets/images/adaptive-icon.png",
+			"androidMode": "collapse"
+		},
+		"updates": {
+			"fallbackToCacheTimeout": 0
+		},
+		"assetBundlePatterns": ["**/*"],
+		"ios": {
+			"supportsTablet": true
+		},
+		"android": {
+			"adaptiveIcon": {
+				"foregroundImage": "./assets/images/adaptive-icon.png",
+				"backgroundColor": "#111111"
+			},
+			"config": {
+				"googleMaps": {
+					"apiKey": ""
+				}
+			},
+			"package": "com.team.localitybn",
+			"versionCode": 1
+		},
+		"web": {
+			"favicon": "./assets/images/icon.png"
+		},
+		"packagerOpts": {
+			"config": "metro.config.js",
+			"sourceExts": [
+				"expo.ts",
+				"expo.tsx",
+				"expo.js",
+				"expo.jsx",
+				"ts",
+				"tsx",
+				"js",
+				"jsx"
+			]
+		}
+	}
+}
